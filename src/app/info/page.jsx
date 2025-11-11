@@ -5,6 +5,11 @@ import { ChevronDown, Search } from "lucide-react";
 export default function FAQPage() {
   const faqs = [
     {
+      "question": "Quais são os contatos de emergência?",
+      "answer": "Os contatos de emergência são números que devem ser acionados em situações urgentes. No Brasil, os principais são:\n\n• 190 – Polícia Militar (em caso de crimes, assaltos, violência ou situações de perigo imediato)\n• 192 – SAMU (emergências médicas e remoção de pacientes)\n• 193 – Corpo de Bombeiros (incêndios, resgates, acidentes)\n• 199 – Defesa Civil (desastres naturais, enchentes, desabamentos)\n• 180 – Central de Atendimento à Mulher (violência doméstica e orientação)\n• 181 – Disque Denúncia (denúncias anônimas de crimes)\n• 100 – Disque Direitos Humanos (violação de direitos de crianças, idosos, pessoas com deficiência, etc.)\n• 136 – Ministério da Saúde (informações sobre o SUS e saúde pública)\n• 191 – Polícia Rodoviária Federal (ocorrências em rodovias federais)\n• 188 – CVV (Centro de Valorização da Vida – apoio emocional e prevenção do suicídio)\n• 125 – Defesa Civil Estadual (em alguns estados)\n\nTambém é importante manter atualizados os contatos pessoais de emergência, como:\n• Familiares e amigos próximos\n• Contato do plano de saúde\n• Médico de confiança\n• Escola dos filhos (se aplicável)",
+      "category": "Segurança e Emergências"
+    },
+    {
       "question": "O que é o Cadastro Único (CadÚnico) e para que serve?",
       "answer": "O Cadastro Único é a principal porta de entrada para os programas sociais do Governo Federal. Ele é um registro que permite ao governo saber quem são e como vivem as famílias de baixa renda no Brasil.",
       "category": "Cadastro e Renda Básica"
@@ -171,7 +176,7 @@ export default function FAQPage() {
   return (
     <div className="min-h-screen bg-linear-to-br from-yellow-50 to-white flex flex-col items-center py-16 px-4">
       <h1 className="text-4xl font-bold text-gray-800 mb-10 text-center tracking-tight">
-        Perguntas Frequentes
+        Acesso à Informação
       </h1>
 
       {/* Campo de busca */}
@@ -205,13 +210,13 @@ export default function FAQPage() {
                     }`}
                 />
               </div>
-              <div className="w-min whitespace-nowrap mt-1 py-1 px-3 bg-amber-200 rounded-2xl">{faq.category}</div>
+              <div className="w-min whitespace-nowrap mt-1 py-1 px-3 text-black bg-amber-200 rounded-2xl">{faq.category}</div>
             </div>
             <div
-              className={`transition-all duration-300 overflow-hidden ${openIndex === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+              className={`transition-all duration-300 overflow-hidden ${openIndex === index ? "max-h-120 opacity-100" : "max-h-0 opacity-0"
                 }`}
             >
-              <p className="text-gray-600 pb-4">{faq.answer}</p>
+              <p className="text-gray-600 pb-4 whitespace-pre-line">{faq.answer}</p>
             </div>
           </div>
         ))}

@@ -13,12 +13,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Cadastro Único (CadÚnico)",
           "utilidade": "Necessário para Bolsa Família, BPC, Tarifa Social, ID Jovem, Auxílio Gás, etc.",
-          "link": "#perguntas-cadastro-renda"
         },
         {
           "titulo": "Acompanhamento Familiar",
           "utilidade": "Orientação sobre direitos e deveres e encaminhamento para outros serviços.",
-          "link": "#perguntas-assistencia"
         }
       ]
     },
@@ -31,12 +29,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Emissão do Cartão SUS",
           "utilidade": "Necessário para qualquer atendimento na rede pública de saúde.",
-          "link": "#perguntas-saude"
         },
         {
           "titulo": "Vacinação e Consultas",
           "utilidade": "Acesso a consultas (clínico geral, pediatra) e ao calendário nacional de vacinação.",
-          "link": "#perguntas-saude"
         }
       ]
     },
@@ -49,12 +45,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Pagamento de Benefícios",
           "utilidade": "Saque do Bolsa Família, Auxílio Gás, Seguro-Desemprego e BPC.",
-          "link": "#perguntas-cadastro-renda"
         },
         {
           "titulo": "Minha Casa, Minha Vida",
           "utilidade": "Informações e financiamento para programas habitacionais do governo.",
-          "link": "#perguntas-moradia"
         }
       ]
     },
@@ -67,12 +61,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Vagas de Emprego",
           "utilidade": "Intermediação de mão de obra entre empresas e trabalhadores.",
-          "link": "#perguntas-trabalho"
         },
         {
           "titulo": "Seguro-Desemprego",
           "utilidade": "Entrada e acompanhamento do benefício para trabalhadores demitidos.",
-          "link": "#perguntas-trabalho"
         }
       ]
     },
@@ -85,12 +77,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Assistência Jurídica Gratuita",
           "utilidade": "Ações de pensão alimentícia, divórcio, guarda, defesa em processos, etc.",
-          "link": "#perguntas-direitos"
         },
         {
           "titulo": "Direito à Documentação",
           "utilidade": "Ajuda para conseguir 2ª via gratuita de certidões e documentos.",
-          "link": "#perguntas-direitos"
         }
       ]
     },
@@ -103,7 +93,6 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "CNH Social / CNH Gratuita",
           "utilidade": "Inscrição no programa (quando disponível no estado) para tirar a CNH de graça.",
-          "link": "#perguntas-juventude"
         }
       ]
     },
@@ -116,7 +105,6 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Refeição a Baixo Custo",
           "utilidade": "Garante a segurança alimentar com almoços e, às vezes, cafés da manhã.",
-          "link": "#perguntas-alimentacao"
         }
       ]
     },
@@ -129,7 +117,6 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Matrícula no EJA",
           "utilidade": "Permite concluir o Ensino Fundamental ou Médio em menos tempo.",
-          "link": "#perguntas-educacao"
         }
       ]
     },
@@ -142,12 +129,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Cursos Profissionalizantes",
           "utilidade": "Oferece cursos gratuitos de informática, corte e costura, ou panificação.",
-          "link": "#perguntas-trabalho"
         },
         {
           "titulo": "Pré-Vestibular Comunitário",
           "utilidade": "Ajuda jovens de baixa renda a se prepararem para o ENEM (Prouni/Sisu).",
-          "link": "#perguntas-educacao"
         }
       ]
     },
@@ -160,12 +145,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Atendimento Jurídico Gratuito",
           "utilidade": "Alternativa à Defensoria Pública para casos cíveis e de família.",
-          "link": "#perguntas-direitos"
         },
         {
           "titulo": "Atendimento Psicológico Social",
           "utilidade": "Sessões de terapia a baixo custo ou gratuitas (Clínica de Psicologia).",
-          "link": "#perguntas-saude"
         }
       ]
     },
@@ -178,12 +161,10 @@ export default function LocaisDeInteresse() {
         {
           "titulo": "Denúncia (Ligue 180)",
           "utilidade": "Registro de Boletim de Ocorrência e solicitação de medida protetiva.",
-          "link": "#perguntas-assistencia"
         },
         {
           "titulo": "Acolhimento Psicológico e Social",
           "utilidade": "Apoio para sair do ciclo de violência.",
-          "link": "#perguntas-assistencia"
         }
       ]
     }

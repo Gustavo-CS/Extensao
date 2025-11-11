@@ -112,7 +112,7 @@ export default function PainelDeAvisos() {
       </div>
 
       {/* Destaques */}
-      { !busca &&
+      { false &&
       (<div className="w-full max-w-3xl mb-5">
         <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-2 mb-4">
           <Flame className="w-5 h-5 text-red-500" />
@@ -133,10 +133,10 @@ export default function PainelDeAvisos() {
 
       {/* Avisos */}
       <div className="w-full max-w-3xl space-y-5">
-        <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-2 mb-4">
+        {/* <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-2 mb-4">
           <Megaphone className="w-5 h-5 text-yellow-500" />
           Outros avisos
-        </h2>
+        </h2> */}
         {avisosFiltrados.map((aviso, index) => (
           <div
             key={index}
