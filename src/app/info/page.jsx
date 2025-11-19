@@ -10,6 +10,11 @@ export default function FAQPage() {
       "category": "Segurança e Emergências"
     },
     {
+      "question": "Como falar com a Ouvidoria do Recanto das Emas (reclamações ou sugestões)?",
+      "answer": "Você pode ligar gratuitamente para o número 162, acessar o site 'participa.df.gov.br' ou ir pessoalmente na Administração Regional (Avenida Recanto das Emas, Centro Urbano, Quadra 206/300).",
+      "category": "Serviços e Atendimento"
+    },
+    {
       "question": "O que é o Cadastro Único (CadÚnico) e para que serve?",
       "answer": "O Cadastro Único é a principal porta de entrada para os programas sociais do Governo Federal. Ele é um registro que permite ao governo saber quem são e como vivem as famílias de baixa renda no Brasil.",
       "category": "Cadastro e Renda Básica"
