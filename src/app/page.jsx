@@ -63,6 +63,10 @@ export default function HomePage() {
         ))}
       </div>
 
+      <p className="text-gray-600 text-center mt-12 max-w-2xl">
+        Ouvidoria do Recanto das Emas - 162 ou ir na Administração Regional (Avenida Recanto das Emas, Centro Urbano, Quadra 206/300)
+      </p>
+
       <footer className="mt-16 text-sm text-gray-500 text-center">
         © {new Date().getFullYear()} Portal Comunitário · Feito com 💛 para unir pessoas
       </footer>
