@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Megaphone, Search, Flame, Users } from "lucide-react";
+import BotaoVoltar from "@/components/botao";
 
 export default function PainelDeAvisos() {
   const [busca, setBusca] = useState("");
@@ -95,6 +96,8 @@ export default function PainelDeAvisos() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-yellow-50 to-white flex flex-col items-center py-16 px-4">
+      <BotaoVoltar />
+
       <h1 className="text-4xl font-bold text-gray-800 mb-10 text-center tracking-tight">
         Painel de Avisos
       </h1>
@@ -112,24 +115,24 @@ export default function PainelDeAvisos() {
       </div>
 
       {/* Destaques */}
-      { false &&
-      (<div className="w-full max-w-3xl mb-5">
-        <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-2 mb-4">
-          <Flame className="w-5 h-5 text-red-500" />
-          Avisos Mais Latentes
-        </h2>
-        {avisos
-          .filter((a) => a.urgencia === "alta")
-          .map((a, i) => (
-            <div
-              key={i}
-              className="bg-red-50 border border-red-200 p-4 rounded-xl mb-3"
-            >
-              <h3 className="text-red-800 font-semibold">{a.titulo}</h3>
-              <p className="text-sm text-red-700">{a.descricao}</p>
-            </div>
-          ))}
-      </div>)}
+      {false &&
+        (<div className="w-full max-w-3xl mb-5">
+          <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-2 mb-4">
+            <Flame className="w-5 h-5 text-red-500" />
+            Avisos Mais Latentes
+          </h2>
+          {avisos
+            .filter((a) => a.urgencia === "alta")
+            .map((a, i) => (
+              <div
+                key={i}
+                className="bg-red-50 border border-red-200 p-4 rounded-xl mb-3"
+              >
+                <h3 className="text-red-800 font-semibold">{a.titulo}</h3>
+                <p className="text-sm text-red-700">{a.descricao}</p>
+              </div>
+            ))}
+        </div>)}
 
       {/* Avisos */}
       <div className="w-full max-w-3xl space-y-5">

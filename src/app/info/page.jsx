@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ChevronDown, Search } from "lucide-react";
+import BotaoVoltar from "@/components/botao";
 
 export default function FAQPage() {
   const faqs = [
@@ -180,6 +181,8 @@ export default function FAQPage() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-yellow-50 to-white flex flex-col items-center py-16 px-4">
+      <BotaoVoltar />
+
       <h1 className="text-4xl font-bold text-gray-800 mb-10 text-center tracking-tight">
         Acesso à Informação
       </h1>

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { MapPin, ChevronDown, ExternalLink, Search } from "lucide-react";
+import BotaoVoltar from "@/components/botao";
 
 export default function LocaisDeInteresse() {
   const locais = [
@@ -185,6 +186,8 @@ export default function LocaisDeInteresse() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-yellow-50 to-white flex flex-col items-center py-16 px-4">
+      <BotaoVoltar />
+
       <h1 className="text-4xl font-bold text-gray-800 mb-10 text-center tracking-tight">
         Locais de Interesse
       </h1>
